@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { openWhopCheckout } from "@/utils/checkout";
 
 const HeroSection = () => {
   return (
@@ -21,6 +22,7 @@ const HeroSection = () => {
           variant="hero" 
           size="xl"
           className="animate-glow text-lg px-12 py-6 h-auto"
+          onClick={openWhopCheckout}
         >
           Invest Now
         </Button>

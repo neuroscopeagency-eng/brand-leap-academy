@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { openWhopCheckout } from "@/utils/checkout";
 
 const CtaSection = () => {
   return (
@@ -18,6 +19,7 @@ const CtaSection = () => {
             variant="cta" 
             size="xl"
             className="animate-glow text-lg px-12 py-6 h-auto"
+            onClick={openWhopCheckout}
           >
             Invest Now
           </Button>
