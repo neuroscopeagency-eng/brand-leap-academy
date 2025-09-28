@@ -60,6 +60,7 @@ export default {
       },
       backgroundImage: {
         'hero-gradient': 'var(--hero-gradient)',
+        'hero-grid': 'var(--hero-grid)',
         'card-gradient': 'var(--card-gradient)',
       },
       boxShadow: {

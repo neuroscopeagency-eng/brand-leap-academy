@@ -2,8 +2,9 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-hero-gradient px-4 py-20">
-      <div className="max-w-4xl mx-auto text-center animate-fade-in">
+    <section className="min-h-screen flex items-center justify-center bg-hero-gradient px-4 py-20 relative">
+      <div className="absolute inset-0 bg-hero-grid opacity-50" style={{backgroundSize: '50px 50px'}}></div>
+      <div className="max-w-4xl mx-auto text-center animate-fade-in relative z-10">
         <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
           Skip the <span className="text-primary">$100k MBA</span>.{" "}
           <br className="hidden sm:block" />
